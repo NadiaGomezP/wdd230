@@ -27,7 +27,7 @@ footer {
     padding: 50px;
     border-radius: 5px;
     width:auto;
-    height: 50px;
+    height: 100px;
 }
 
 .name {
@@ -35,7 +35,7 @@ footer {
     text-align: left;
     position: absolute;
     color:black;
-    margin: -10px 15px 20px 0;
+    margin: 10px 15px 0 -5px;
     font-family: 'M PLUS Rounded 1c', cursive;
 }
 
@@ -45,7 +45,7 @@ footer {
     border: 4px solid black;
     border-radius: 10px;
     float: right;
-    margin: -20px;
+    margin: -30px;
     
 }
 
