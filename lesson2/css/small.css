@@ -5,7 +5,7 @@ header,
 body {
   margin: 1.25rem auto;
   max-width: 1000px;
-  background-image: url(/images/background.png);
+  background-image: url(../images/background.png);
   justify-content: center;
   background-repeat: no-repeat;
   background-position: center;
