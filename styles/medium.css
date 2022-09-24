@@ -1,0 +1,19 @@
+@media (min-width: 37.5em) {
+
+    .name{
+        grid-column: 1/4;
+        position: absolute;
+        font-size: 50px;
+        margin-left: -10px;
+    }
+    
+    .portrait{
+        grid-column: 5/6;
+        width: 150px;
+        margin: -25px;
+                
+    }
+    
+
+    
+}
