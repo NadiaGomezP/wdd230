@@ -1,6 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
-
 body {
 	font-size: 16px;
 	font-family: "Sansita", Ubuntu, sans-serif;
@@ -9,6 +7,16 @@ body {
 header, h1 {
 	font-size: 30px;
 	text-transform: uppercase;
+}
+
+header,
+footer {
+            
+    background-color: #808080;
+    color:white;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
 }
 
 header,
@@ -28,9 +36,10 @@ h2 {
 }
 
 nav {
-	background-color: #36454f;
+
 	text-align: center;
 	box-shadow: 0 2px 15px gray;
+    flex-direction: column;
 }
 nav ul {
 	list-style-type: none;
@@ -57,3 +66,54 @@ nav a:hover {
 	font-size: 16px;
 	font-family: "Sansita", Ubuntu, sans-serif;
 }
+
+header,
+body {
+      margin: 1.25rem auto;
+      max-width: 1000px;
+      background-image: url(../images/background.png);
+      justify-content: center;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+      color: white;
+      font-family: "Nixie One", sans-serif;
+      text-align: center;
+      background-color: #808080;
+      width: 100%;
+}
+    
+a {
+        color: #B0DAF1;
+        background-color: #808080;
+        display: inline-block;
+    }
+
+    
+.container, p {
+	color: black;
+}
+
+footer {
+	font-size: 0.9em;
+	padding: 1.5rem;
+	text-align: center;
+	background-color: #808080;
+	color: white;
+	border: 3px solid #ccc;
+	border-radius: 1em; 
+}
+
+main {
+    display: block;   
+    text-align: center;
+  }
