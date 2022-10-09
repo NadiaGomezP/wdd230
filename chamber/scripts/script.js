@@ -42,7 +42,6 @@ let daynames = [
     const hoy = new Date(tiempoTranscurrido);
     const ahora = hoy.toDateString();
 
-    console.log(ahora);
     document.getElementById("today-date").textContent = ahora;
 
 
