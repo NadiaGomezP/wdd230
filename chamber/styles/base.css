@@ -54,7 +54,6 @@ body{
     margin-right: auto;
     margin-left: auto;
 }
-/* Navigation */
   
 
 /* Main */
@@ -125,14 +124,12 @@ address {
     color: white;
 }
 
-
+/* Navigation */
 .navBar{
     overflow: hidden;
     margin-left: auto;
   }
-  
-  /*Floats each item to the left with padding of 14 & 16 px.
-  Removes the underline with text decoration = none.*/
+
   .navBar a{
     float: left;
     color: white;
@@ -142,25 +139,19 @@ address {
     font-family: Tahoma;
   }
   
-  /*Background color change during hover state*
-  
-  /*Hides the menu Icon which will show when the nav needs to be responsive*/
   .navBar .icon{
     display: none;
   }
   
-  /*Set your custom screen width here replacing 700*/
   @media (max-width: 960px){
-  /*Ignores the first link (which is Home) in the div and       applies 'display = none' to everything else.   Basically hiding everything but Home*/
     .navBar a{
       display: none;
     }
-  /*Brings the menu icon into view and floats it to the right*/
+
     .navBar a.icon{
       display: block; float: right;
     }
     
-  /*The navBar class will be changed to 'navBar responsive' using JS. This chunk of CSS makes the menu icon stay where it is by making the position absolute within it's parent 'right top corner'. Without this, the icon will get kicked around when the items are collapsed and expanded*/
     .navBar.responsive {
       position: relative;
     }
@@ -171,7 +162,7 @@ address {
       margin-right: 0px;
     }
     
-  /*Removes the originally set float and brings them to view*/
+
     .navBar.responsive a {
       float: none;
       display: block;
