@@ -78,4 +78,9 @@
     .change-size{
       display: contents;
     }
+
+    .banner {
+      font-size: 23px;
+  }
+
 }

@@ -4,6 +4,14 @@
     margin: 0;
 }
 
+.banner {
+  height: 50px;
+  line-height: 50px;
+  background: #EC9A29;
+  text-align: center;
+  font-size: 15px;
+}
+
 /* HEADER SECTION */
 header{
     font-family: 'Nixie One', cursive;
@@ -207,3 +215,12 @@ address {
     color: white;
   }
   
+
+  nav ul li.active a {
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.4);
+}

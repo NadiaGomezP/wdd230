@@ -60,7 +60,9 @@
         align-items: center;
       }
 
-
+      .banner {
+        font-size: 18px;
+    }
       
 
 }
