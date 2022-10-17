@@ -59,6 +59,7 @@ body{
     border-radius: 5%;
     text-align: center;
     width: 85%;
+    max-width: 100%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -145,6 +146,11 @@ address {
     text-decoration: none;
     font-size: 17px;
     font-family: Tahoma;
+  }
+
+  .navBar a:hover{
+    color:#6380a1;
+    text-shadow: 0 0 5px black;
   }
   
   .navBar .icon{
