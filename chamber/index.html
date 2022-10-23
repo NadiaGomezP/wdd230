@@ -22,7 +22,7 @@
     <header>
         <div class="first-container">
             <div class="logo-container">
-                <img class="logo" src="../lesson3/images/RIACHUELO.png" alt="Riachuelo">
+                <img class="logo" src="./images/RIACHUELO.webp" alt="Riachuelo">
                 <section class="site-name-container">
                     <h1>Riachuelo</h1>
                     <h2>Chamber of Tourism</h2>
@@ -48,46 +48,94 @@
     </header>
     <main>
         <section class="hero">
-            <div>
-                <h1>Hero with site name and call to action</h1>
+            <picture>
+                <source media="(min-width: 960px)" srcset="./images/wdd230-org-large.webp">
+                <source media="(min-width: 600px)" srcset="./images/wdd230-org-medium.webp">
+                <img src="./images/wdd230-org-small.webp" alt="Two men and one woman having a business meeting.">
+            </picture>
+            <div class="card-info">
+                <h1>Welcome to Riachuelo</h1>
+                <button>Join the chamber</button>
             </div>
         </section>
         <section class="event">
             <div>
                 <h1>Event</h1>
+                <h2>Lorem Ipsum Dolor Sit</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.tur perspiciatis, cupiditate eum labore? Iusto, laborum ducimus commodi nostrum qui alias?</p>
             </div>
         </section>
         <section class="weather">
             <div>
                 <h1>Weather</h1>
+                <p>Temperature: <span id="tempF">50</span>°F</p>
+                <p>Humidity: 33%</p>
+                <p>Wind Speed: <span id="speed">5</span> mph</p>
+                <p>WindChill: <span id="windchill"></span>°F</p>
             </div>
         </section>
         <section class="news-release">
             <div>
                 <h1>News Release</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic eius ab ipsam assumenda ad fugit at rem temporibus laudantium inventore fugiat accusantium nobis itaque labore asperiores numquam, tenetur quia sequi.</p>
+
             </div>
         </section>
         <section class="join">
             <div>
-                <h1>Join</h1>
+                <h1>Join Us!</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. asd dsdad e ea adipisci mollitia fugiat consectetur inventore, minima, fuga deserunt aperiam? </p>
             </div>
         </section>
         <div class="spotlights">
             <section>
-                <h2>Spotlight 1</h2>
+                <div class="spotlightshead">
+                    <h2>Lorem Ipsum</h2>
+                    <img src="#" alt="">
+                </div>
+                <div class="spotlightsbody">
+                    <p class="spotlightstext">Lorem ipsum dolor sit amet.</p>
+                    <div class="spotlightscontact">
+                        <address>lorem@ipsum.com</address>
+                        <address>+111-1111-1111</address>
+                        <address><a href="#" class="spotlightslink">Website</a></address>
+                    </div>
+                </div>
             </section>
             <section>
-                <h2>Spotlight 2</h2>
+                <div class="spotlightshead">
+                    <h2>Lorem Ipsum</h2>
+                    <img src="#" alt="">
+                </div>
+                <div class="spotlightsbody">
+                    <p class="spotlightstext">Lorem ipsum dolor sit amet.</p>
+                    <div class="spotlightscontact">
+                        <address>lorem@ipsum.com</address>
+                        <address>+111-1111-1111</address>
+                        <address><a href="#" class="spotlightslink">Website</a></address>
+                    </div>
+                </div>
             </section>
             <section>
-                <h2>Spotlight 3</h2>
+                <div class="spotlightshead">
+                    <h2>Lorem Ipsum</h2>
+                    <img src="#" alt="">
+                </div>
+                <div class="spotlightsbody">
+                    <p class="spotlightstext">Lorem ipsum dolor sit amet.</p>
+                    <div class="spotlightscontact">
+                        <address>lorem@ipsum.com</address>
+                        <address>+111-1111-1111</address>
+                        <address><a href="#" class="spotlightslink">Website</a></address>
+                    </div>
+                </div>
             </section>
         </div>
     </main>
     <footer>
         <div class="company-footer">
             <div class="company-text">
-                <div class="footer-logo"><img class="logo" src="../lesson3/images/RIACHUELO.png" alt="">
+                <div class="footer-logo"><img class="logo" src="./images/RIACHUELO.webp" alt="">
                     <h2>Riachuelo - Chamber of Tourism</h2>
                 </div>
                 <div>
@@ -104,5 +152,7 @@
     </footer>
 
     <script src="./scripts/script.js" defer></script>
+    <script src="./scripts/windchill.js" defer></script>
+    
 </body>
 </html>

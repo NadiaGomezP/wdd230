@@ -2,6 +2,7 @@
 
 *{
     margin: 0;
+    
 }
 
 .banner {
@@ -58,8 +59,7 @@ body{
     background: #8f8f8f;
     border-radius: 5%;
     text-align: center;
-    width: 85%;
-    max-width: 100%;
+    max-width: 85%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -81,6 +81,14 @@ main {
     border: 1px solid #0f0e17;
     margin-bottom: 1.6rem;
     padding: 1.6rem;
+    text-align: center;
+
+}
+
+.event h2{
+font-size: 20px;
+margin-top: -10px;
+margin-bottom: 10px;
 }
 
 .join{
@@ -99,7 +107,21 @@ main section {
 
 .spotlights h2{
     margin: 1rem;
+    text-align: center;
 }
+
+.spotlightscontact {
+  border-top: 2px solid black;
+  padding: 0.2rem;
+  color: #0f0e17;
+  text-align: center;
+}
+
+.spotlightstext{
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
 
 footer {
     font-family: 'Nixie One', cursive;
@@ -108,7 +130,7 @@ footer {
     text-align: center;
   }
   
-address {
+footer address {
     font-style: normal;
     margin-bottom: 0.8rem;
     color: white;
@@ -117,6 +139,10 @@ address {
 .company-footer {
     border-bottom: 2px solid rgb(66, 66, 66);
   }
+
+.company-text{
+  margin-bottom: 1rem;
+}
   
 .infofooter {
     margin-top: 1.6rem;
@@ -229,4 +255,25 @@ address {
 
 nav ul li a:hover {
     background-color: rgba(0,0,0,0.4);
+}
+
+.hero{
+  padding: 0;
+}
+
+.hero img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero button {
+  border-radius: 0.8rem;
+  font-weight: 700;
+  padding: 0.8rem 1.6rem;
+  margin-top: 2.4rem;
+}
+
+.card-info{
+  margin-top: -225px;
 }

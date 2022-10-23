@@ -57,7 +57,6 @@ let daynames = [
   
     let n = new Date();
     let q = n.getDay();
-    console.log(q);
   
     if (q === 1 || q === 2) {
       document.getElementById("announcement").style.display="block";
