@@ -1,4 +1,4 @@
-article {
+main {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 2em;
@@ -10,9 +10,6 @@ article {
     font-size: 3em;
   }
   
-  /* article img[data-src] {
-    filter: blur(0.2em);
-  } */
   
   article img {
     width: 100%;
