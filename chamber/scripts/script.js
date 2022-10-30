@@ -101,13 +101,14 @@ images.forEach((image) => {
 const countDisplay = document.querySelector(".visits");
 const lastVisit = Number(window.localStorage.getItem("last-visit"));
 
-    const day= Date.now();
 
-    let difference = day - lastVisit;
+  const day= Date.now();
 
-    let roundedDays = (difference/1000/60/60/24).toFixed(0);
+  let difference = day - lastVisit;
 
-    localStorage.setItem("last-visit", day);
+  let roundedDays = (difference/1000/60/60/24).toFixed(0);
+
+  localStorage.setItem("last-visit", day);
 
     
 	countDisplay.textContent = roundedDays
