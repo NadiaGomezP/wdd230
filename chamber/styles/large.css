@@ -3,7 +3,7 @@
 @media screen and (min-width: 60em){
 
 
-    main {
+    .main-home {
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: repeat(2, 1fr);
       }
@@ -83,5 +83,30 @@
     .banner {
       font-size: 23px;
   }
+
+
+.grid-gallery {
+  padding: 10px 10px 30px 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:1rem;
+}
+
+
+figure img {
+    width: 300px;
+    height: 300px;
+}
+
+figure img:hover {
+    box-shadow: 1px 1px 10px black;
+}
+
+.paragraphs-demo{
+  font-size: 20px;
+}
+
+.h1-gallery{
+  font-size: 30px;
+}
 
 }
