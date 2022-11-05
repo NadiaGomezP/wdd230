@@ -1,0 +1,55 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Nixie One', cursive;
+}
+
+table {
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    box-shadow: 5px 10px 9px 0px #628ca6;
+    border-radius: 0px;
+    width:50%;
+}
+
+caption {
+  padding: 1.6rem;
+  caption-side: bottom;
+  color:  #272343;
+  font-size: 20px;
+}
+
+tr:first-child th {
+  font-size: 1.5rem;
+}
+
+tr:first-child th,
+.august {
+  background-color: #6897ee;
+  color:  #272343;
+}
+
+th,
+td {
+    border: 1px solid #a3a3a3;
+    padding: 0.5rem;
+}
+
+th {
+  background-color:  #bae8e8;
+}
+
+td {
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e7ffed;
+}
