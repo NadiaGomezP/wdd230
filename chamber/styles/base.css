@@ -69,6 +69,7 @@ body{
 
 .main-home {
     padding: 1.6rem;
+    background-color: #FFBC00 ;
 }
   
 /* PLACEHOLDER STYLES */
@@ -332,11 +333,69 @@ border-radius: 1em;
   font-size: 15px;
 }
 
-MAIN{
-  background-color: #FFBC00;
-}
 
 .visit{
   color:white;
   margin-top: 15px;
+}
+
+form fieldset {
+  margin: 2rem 0;
+  border: 2px solid #445ba9;
+  border-radius: 10px;
+  padding: .5rem 2%;
+}
+
+
+form label.top, form div {
+  display: block;
+  padding-top: 1rem;
+  color: #9c2c13;
+  font-size: .8rem;
+}
+
+form label.top input, form label.top select {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: .75rem;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+
+form input.submitBtn {
+  border: none;
+  background-color: #9c2c13;
+  color: white;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: -15px 30px 20px 50px ;
+  width: 96%;
+  max-width: 20rem;
+}
+
+form label.top input:required {
+  border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+  border-left: green solid 6px;
+}
+
+form{
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.pform{
+  text-align: center;
+  background-color: white;
+  font-size: 35px;
+  margin-top: 60px;
 }
