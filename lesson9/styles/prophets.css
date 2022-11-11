@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Nixie+One&family=Sansita&display=swap');
+
+body{
+    margin: 0;
+    background-color: #000000;
+}
+
+h1, h2 {
+    font-family: 'Nixie One', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    color: black;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(280px, 1fr));
+    max-width: 100%;
+    gap: 20px;
+    margin: 20px;
+    grid-template-rows: repeat(auto-fill,minmax(280px, 1fr));
+    padding: 1em;
+}
+
+section {
+    display: block;
+    margin: auto;
+    background-color:#705288;
+    margin-top: 1em;
+}
+
+section img {
+    margin: auto;
+    display: flex;
+    margin-bottom: 10px;
+    height: 300px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+p {  
+    font-size: 16px;
+    text-align: center;
+}
+
+
+footer{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 1em;
+    color: white ;
+}
