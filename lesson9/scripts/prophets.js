@@ -24,7 +24,6 @@ function displayProphets(prophet) {
 
   portrait.setAttribute("src", prophet.imageurl);
   portrait.setAttribute("alt", `Portait of ${prophet.name} ${prophet.lastname} - Latter-day President number ${prophet.order}`);
-  portrait.setAttribute("loading", "lazy");
   card.append(h2, dateofbirth, placeofbrith, portrait);
   document.querySelector("div.cards").appendChild(card);
 }
