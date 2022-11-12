@@ -113,3 +113,51 @@ const lastVisit = Number(window.localStorage.getItem("last-visit"));
     
 	countDisplay.textContent = roundedDays
 
+  const gridbutton = document.querySelector("#grid");
+  const listbutton = document.querySelector("#list");
+  const display = document.querySelector("article");
+
+  
+  gridbutton.addEventListener("click", () => {
+    // example using arrow function
+    display.classList.add("grid");
+    display.classList.remove("list");
+  });
+  
+  listbutton.addEventListener("click", showList); // example using defined function
+  
+  function showList() {
+    display.classList.add("list");
+    display.classList.remove("grid");
+  }
+  
+
+const requestURL = './json/data.json';
+const cards = document.querySelector('.cards');
+
+fetch(requestURL)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    console.table(jsonObject);  
+    const cards = jsonObject["cards"];
+    cards.forEach(displayProphets);
+  });
+
+function displayProphets(prophet) {
+  let card = document.createElement("section");
+  let h2 = document.createElement("h2");
+  let address = document.createElement("p");
+  let phonenumber = document.createElement("p");
+  let portrait = document.createElement("img");
+
+  h2.textContent = `${cards.name}`;
+  address.textContent = `Address: ${cards.address}`;
+  phonenumber.textContent = `Phone number: ${cards.phonenumber}`;
+
+  portrait.setAttribute("src", cards.imageurl);
+  portrait.setAttribute("alt", `Information of ${cards.name}`);
+  card.append(h2, address, phonenumber, portrait);
+  document.querySelector("article.cards").appendChild(card);
+}
