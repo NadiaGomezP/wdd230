@@ -132,32 +132,34 @@ const lastVisit = Number(window.localStorage.getItem("last-visit"));
   }
   
 
-const requestURL = './json/data.json';
+const requestURL1 = 'https://nadiagomezp.github.io/wdd230/chamber/json/data.json';
 const cards = document.querySelector('.cards');
 
-fetch(requestURL)
+fetch(requestURL1)
   .then(function (response) {
     return response.json();
   })
   .then(function (jsonObject) {
     console.table(jsonObject);  
     const cards = jsonObject["cards"];
-    cards.forEach(displayProphets);
+    cards.forEach(displayCards);
   });
 
-function displayProphets(prophet) {
+function displayCards(cardsinfo) {
   let card = document.createElement("section");
   let h2 = document.createElement("h2");
   let address = document.createElement("p");
   let phonenumber = document.createElement("p");
+  let membership = document.createElement("p");
   let portrait = document.createElement("img");
 
-  h2.textContent = `${cards.name}`;
-  address.textContent = `Address: ${cards.address}`;
-  phonenumber.textContent = `Phone number: ${cards.phonenumber}`;
+  h2.textContent = `${cardsinfo.name}`;
+  address.textContent = `Address: ${cardsinfo.address}`;
+  phonenumber.textContent = `Phone number: ${cardsinfo.phonenumber}`;
+  membership.textContent = `Membership Required: ${cardsinfo.membership}`;
 
-  portrait.setAttribute("src", cards.imageurl);
-  portrait.setAttribute("alt", `Information of ${cards.name}`);
-  card.append(h2, address, phonenumber, portrait);
+  portrait.setAttribute("src", cardsinfo.imageurl);
+  portrait.setAttribute("alt", `Information of ${cardsinfo.name}`);
+  card.append(portrait, h2, address, phonenumber, membership);
   document.querySelector("article.cards").appendChild(card);
 }
