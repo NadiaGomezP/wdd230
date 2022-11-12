@@ -399,3 +399,7 @@ form{
   font-size: 35px;
   margin-top: 60px;
 }
+
+.benefits{
+  display: none;
+}
