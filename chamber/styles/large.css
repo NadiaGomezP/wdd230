@@ -166,4 +166,8 @@ figure img:hover {
   grid-template-rows: repeat(auto-fill,minmax(50px, 1fr));
 }
 
+.list section img {
+  display: none;
+}
+
 }
