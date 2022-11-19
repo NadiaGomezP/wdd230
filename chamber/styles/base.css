@@ -480,3 +480,9 @@ img {
 	.list section img {
 		display: none;
 	}}
+
+
+  #weather-icon{
+    width: 20%;
+    height: 20%;
+  }
