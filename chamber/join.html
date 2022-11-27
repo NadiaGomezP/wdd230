@@ -47,7 +47,7 @@
             <p id="today-date"></p>
         </div>
     </header>
-    <main class="clearfix">        
+    <main class="joinpage">        
         <form method="get" action="thankyou.html">   
             <fieldset>
                 <label class="top">First Name* <input type="text" name="fname" required></label>
@@ -56,7 +56,6 @@
                 <label class="top">Email* <input type="email" name="email" placeholder="example@gmail.com" required></label>
                 <label class="top">Cell Phone Number* <input type="tel" name="phone" required></label>
                 <label class="top">Business Name/Title* <input type="text" name="bname" required></label>
-                
                 <label class="top"> Membership Level
                     <select name="subject">
                         <option value="">Please Select &#9662;</option>
@@ -65,13 +64,6 @@
                         <option value="silver">Silver Membership</option>
                         <option value="gold">Gold Membership</option>
                     </select>
-                    <div class="benefits">
-                    <h3 class="bendescrip1">BENEFITS INFORMATION</h3>   
-                    <p class="bendescrip2">NP Benefits: NO FEE. Tour guides for free </p>
-                    <p class="bendescrip3">Bronze Benefits: $2. Tour guides and access to museums for free.</p>
-                    <p class="bendescrip4">Silver Benefits: $5. Tour guides and access to museums for free. PRE-SALE access to important events. </p>
-                    <p class="bendescrip5">Gold Benefits: $7. Tour guides and access to museums for free. PRE-SALE access to important events. Advertising your commerce in home-page with reduced cost</p>
-                    </div>
                 </label>
                 <div class="top">Business Description:</div>
                 <textarea id="area" name="bdescription" rows="4" cols="35"></textarea>
@@ -83,6 +75,40 @@
         
         
         </form>
+        <section class="benefits">
+            <div class="np_benefits">
+              <h3>NP</h3>
+              <ul>
+                <li>No fee</li>
+                <li>For Non-profit organizations only</li>
+                <li>Tour guides for free in La Boca neighborhood</li>
+              </ul>
+            </div>
+            <div class="bronze_benefits">
+              <h3>Bronze - $20</h3>
+              <ul>
+                <li>Tour guides for free</li>                
+                <li>Access to museums for free</li>
+                <li>Access to exclusive merchadising and gifts from all the museums</li>
+              </ul>
+            </div>
+            <div class="silver_benefits">
+              <h3>Silver - $35</h3>
+              <ul>
+                <li>Sale of tickets for important events</li>
+                <li>Exclusive sale of tickets for Boca Juniors games</li>
+                <li>Discounts provided to businesses who have been in operation for at least 5 years.</li>
+              </ul>
+            </div>
+            <div class="gold_benefits">
+              <h3>Gold - $50</h3>
+              <ul>
+                <li>PRE-SALE for tickets to important events</li>
+                <li>PRE-SALE of VIP tickets to Boca Juniors games</li>
+                <li>Advertising of your LA BOCA commerce in our home page</li>
+              </ul>
+            </div>
+          </section>
     </main>
     <footer>
         <div class="company-footer">

@@ -339,59 +339,6 @@ border-radius: 1em;
   margin-top: 15px;
 }
 
-form fieldset {
-  margin: 2rem 0;
-  border: 2px solid #445ba9;
-  border-radius: 10px;
-  padding: .5rem 2%;
-}
-
-
-form label.top, form div {
-  display: block;
-  padding-top: 1rem;
-  color: #9c2c13;
-  font-size: .8rem;
-}
-
-form label.top input, form label.top select {
-  display: block;
-  font-size: 1rem;
-  border: solid 1px #999;
-  border-radius: 4px;
-  padding: .75rem;
-  color: rgb(0, 0, 0);
-  width: 100%;
-  max-width: 20rem;
-  background-color: rgba(0, 0, 0, 0.1);
-
-}
-
-
-form input.submitBtn {
-  border: none;
-  background-color: #9c2c13;
-  color: white;
-  border-radius: 1rem;
-  padding: .75rem 1.5rem;
-  margin: -15px 30px 20px 50px ;
-  width: 96%;
-  max-width: 20rem;
-}
-
-form label.top input:required {
-  border-left: red solid 6px;
-}
-
-form label.top input:required:valid {
-  border-left: green solid 6px;
-}
-
-form{
-  background-color: white;
-  margin-left: 20px;
-  margin-right: 20px;
-}
 
 .pform{
   text-align: center;
@@ -400,31 +347,27 @@ form{
   margin-top: 60px;
 }
 
-.benefits{
-  display: none;
-}
-
 
 main .listgrid {
-	margin: 0 auto;
+  margin: 0 auto;
 	padding: 0.5rem;
 	max-width: 100%;
 	font-family: "Nixie-One", cursive;
 }
 
 .menudirectory {
-	margin: 1rem auto;
+  margin: 1rem auto;
 	padding: 0.5rem;
 	text-align: center;
 }
 
 .menudirectory button {
-	padding: 1rem;
+  padding: 1rem;
 }
 
 article,
 section {
-	margin: 0.75rem;
+  margin: 0.75rem;
 }
 
 .cards section {
@@ -433,7 +376,7 @@ section {
 }
 
 .grid {
-	display: grid;
+  display: grid;
   grid-template-columns:1fr;
   max-width: 100%;
   gap: 20px;
@@ -444,17 +387,17 @@ section {
 
 
 .grid section {
-	flex-direction: column;
+  flex-direction: column;
 	text-align: center;
 }
 
 .grid section > * {
-	margin: 0.1rem;
+  margin: 0.1rem;
 }
 
 
 section h3 {
-	font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 section a {
@@ -463,7 +406,7 @@ section a {
 }
 
 img {
-	height: 75px;
+  height: 75px;
 	max-width: 100%;
 }
 
@@ -477,12 +420,74 @@ img {
 }
 
 @media (min-width: 700px) {
-	.list section img {
-		display: none;
+  .list section img {
+    display: none;
 	}}
-
-
+  
+  
   #weather-icon{
     width: 20%;
     height: 20%;
+  }
+  
+  
+  form fieldset {
+    border: 2px solid #445ba9;
+    border-radius: 10px;
+  }
+  
+  
+  form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .8rem;
+  }
+  
+  form label.top input, form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+  
+  }
+  
+  
+  form input.submitBtn {
+    border: none;
+    background-color: #9c2c13;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 10px 25px;
+    width: 96%;
+    max-width: 20rem;
+  }
+  
+  form label.top input:required {
+    border-left: red solid 6px;
+  }
+  
+  form label.top input:required:valid {
+    border-left: green solid 6px;
+  }
+  
+  form{
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .np_benefits h3,
+  .bronze_benefits h3,
+  .silver_benefits h3,
+  .gold_benefits h3 {
+    background-color:#445ba9;
+    box-shadow: 5px 5px 5px #000000;
+    position: relative;
+    text-align: center;
   }
