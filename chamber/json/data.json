@@ -7,7 +7,7 @@
         "membership": "NP",
         "url": "https://www.buenosairesfreewalks.com/spanish/tour-gratis-la-boca/?gclid=Cj0KCQiAj4ecBhD3ARIsAM4Q_jGuAH0WW6ccEPpcb_hlGV8fmdiuuX_Hn39JC91rpvD9LmZYWGL6eXwaAh8tEALw_wcB",
         "order": 1,
-        "imageurl": "https://www.buenosairesfreewalks.com/spanish/wp-content/uploads/2019/12/la-boca-walking-tour-pe.jpg"
+        "imageurl": "https://raw.githubusercontent.com/NadiaGomezP/wdd230/master/imagesjson/caminito.webp"
       },
       {
         "name": "La Bombonera Tour",
@@ -16,7 +16,7 @@
         "membership": "NP",
         "url": "http://museoboquense.com/estadio-tour/",
         "order": 2,
-        "imageurl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Alberto_J_Armando.jpg"
+        "imageurl": "https://raw.githubusercontent.com/NadiaGomezP/wdd230/master/imagesjson/labombonera.webp"
       },
       {
         "name": "Benito Quinquela Monument Tour",
@@ -25,7 +25,7 @@
         "membership": "NP",
         "url": "https://universes.art/es/art-destinations/argentina/buenos-aires/tours/la-boca/quinquela-martin",
         "order": 3,
-        "imageurl": "https://tn.com.ar/resizer/CwEaUTmqGEWZw8tFZuwyp2phvRU=/arc-anglerfish-arc2-prod-artear/public/FKPTXKURBJANNAN462Y42WEIXI.jpeg"
+        "imageurl": "https://raw.githubusercontent.com/NadiaGomezP/wdd230/master/imagesjson/benitoquinquelaestatua.webp"
       },
       {
         "name": "Pasión Boquense Museum",
@@ -34,7 +34,7 @@
         "membership": "Bronze",
         "url": "http://museoboquense.com/",
         "order": 4,
-        "imageurl": "https://www.welcomeargentina.com/paseos/futbol_stadium_boca/museo-boquense-1.jpg"
+        "imageurl": "https://raw.githubusercontent.com/NadiaGomezP/wdd230/master/imagesjson/museoboquense.webp"
       },
       {
         "name": "Benito Quinquela Martín Museum",
@@ -43,7 +43,7 @@
         "membership": "Bronze",
         "url": "https://www.buenosaires.gob.ar/museoquinquelamartin",
         "order": 5,
-        "imageurl": "https://turismo.buenosaires.gob.ar/sites/turismo/files/museo_benito_quinquela_martin_1200_3.jpg"
+        "imageurl": "https://raw.githubusercontent.com/NadiaGomezP/wdd230/master/imagesjson/benitoquinquelamuseo.webp"
       },
       {
         "name": "MARCO Museum",
@@ -52,7 +52,7 @@
         "membership": "Bronze",
         "url": "https://museomarco.org/",
         "order": 6,
-        "imageurl": "https://museomarco.org/wp-content/uploads/2021/04/Marco-Cafe_Museo-Marco-La-Boca.jpg"
+        "imageurl": "https://raw.githubusercontent.com/NadiaGomezP/wdd230/master/imagesjson/marcomuseo.webp"
       },
       {
         "name": "La Bombonera Soccer Tickets",
@@ -61,7 +61,7 @@
         "membership": "Silver",
         "url": "https://www.bocajuniors.com.ar/",
         "order": 7,
-        "imageurl": "http://www.buenosairesfreewalks.com/wp-content/uploads/2019/01/football-tickets-boca.jpg"
+        "imageurl": "https://raw.githubusercontent.com/NadiaGomezP/wdd230/master/imagesjson/bomboneratickets.webp"
       },
       {
         "name": "Advertising",
@@ -70,7 +70,7 @@
         "membership": "Gold",
         "url": "https://nadiagomezp.github.io/wdd230/chamber/index.html",
         "order": 8,
-        "imageurl": "https://resizer.glanacion.com/resizer/RcuwazYyeyJhkSGsf4fRiZuqhbU=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/OJZA6MYF7JC4LLEFCTIAU5LCDE.jpg"
+        "imageurl": "https://raw.githubusercontent.com/NadiaGomezP/wdd230/master/imagesjson/riachuelo.webp"
       },
       {
         "name": "Meet the Team Event",
@@ -79,7 +79,7 @@
         "membership": "Gold",
         "url": "https://www.bocajuniors.com.ar/socios/departamento-socios",
         "order": 9,
-        "imageurl": "https://a.espncdn.com/photo/2021/0814/r895719_1296x729_16-9.jpg"
+        "imageurl": "https://raw.githubusercontent.com/NadiaGomezP/wdd230/master/imagesjson/bocateam.webp"
       }      
     ]
   }

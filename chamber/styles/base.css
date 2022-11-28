@@ -125,7 +125,6 @@ main section {
 }
 
 
-
 footer {
     font-family: 'Nixie One', cursive;
     background:#276490;
@@ -355,6 +354,7 @@ main .listgrid {
 	padding: 0.5rem;
 	max-width: 100%;
 	font-family: "Nixie-One", cursive;
+  
 }
 
 .menudirectory {
@@ -419,6 +419,7 @@ img {
 .listgrid section {
   border: 2px solid #0f0e17;
   margin-top: 1px;
+  height: 90%;
 }
 
 @media (min-width: 700px) {
