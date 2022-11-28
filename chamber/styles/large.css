@@ -29,6 +29,8 @@
       .spotlights section:last-child {
         display: block;
       }
+
+
     
       .weather {
         grid-column: 1/2;
