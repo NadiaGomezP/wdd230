@@ -24,6 +24,42 @@
       .event {
         grid-area: event;
       }
+
+      .event h2{
+        font-size: 20px;
+        margin-top: -10px;
+        margin-bottom: 10px;
+        }
+        
+        .event h1{
+          font-size: 25px;
+          }
+        
+          .event p{
+            font-size: 16px;
+          }
+
+          .news-release h2{
+            font-size: 20px;
+            margin-top: -10px;
+            margin-bottom: 10px;
+            }
+            
+            .news-release h1{
+              font-size: 25px;
+              }
+            
+              .news-release p{
+                font-size: 16px;
+              }
+
+              .join h1{
+                font-size: 30px;
+                }
+              
+                .join p{
+                  font-size: 25px;
+                }
     
       .weather {
         grid-area: weather;
@@ -109,7 +145,7 @@
   }
 
   .paragraphs-demo{
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .h1-gallery{

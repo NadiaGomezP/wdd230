@@ -97,16 +97,13 @@
 
 
 figure img {
+
     width: 300px;
     height: 300px;
 }
 
-figure img:hover {
-    box-shadow: 1px 1px 10px black;
-}
-
 .paragraphs-demo{
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .h1-gallery{
@@ -173,4 +170,22 @@ form fieldset {
   border-radius: 10px;
   padding: 3rem;
 }
+
+.spotlights h2{
+  font-size: 25px;
+}
+
+.spotlightscontact {
+font-size: 18px;
+
+}
+
+.join h1{
+  font-size: 30px;
+  }
+
+  .join p{
+    font-size: 20px;
+  }
+
 }

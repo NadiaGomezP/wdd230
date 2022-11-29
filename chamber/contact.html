@@ -32,9 +32,9 @@
                 <div class="navBar" id="mainNavBar">
                     <a href="index.html">Home</a>
                     <a href="discover.html">Discover</a>
-                    <a href="#">Directory</a>
+                    <a href="directory.html">Directory</a>
                     <a href="join.html">Join</a>
-                    <a href="#">Contact</a>
+                    <a href="contact.html">Contact</a>
                     <a href="javascript:void(0);" class="icon" onClick="openDrawerMenu()">&#9776;</a>
                 </div>
                 <div class="icon-container">
@@ -47,12 +47,48 @@
             <p id="today-date"></p>
         </div>
     </header>
-    <main class="clearfix">
-        <section>
-        <p class="pform">
-            Thanks for filling the form!
-        </p>
-        </section>       
+    <main class="joinpage">
+        <form method="get" action="thankyou.html"> 
+            <fieldset>
+                <h1>CONTACT US!</h1>  
+                <label class="top">Name* <input type="text" name="fname" required></label>     
+                <label class="top">Email* <input type="email" name="email" placeholder="example@gmail.com" required></label>
+                <label class="top">Cell Phone Number* <input type="tel" name="phone" required></label>
+                <div class="top">Comment:</div>
+                <textarea id="area" name="bdescription" rows="4" cols="35"></textarea>
+                </fieldset>                  
+            
+            <input type="hidden" name="form-hour" value="">
+            <input type="submit" value="Send" class="submitBtn">                
+        
+        </form>
+            <div class="contactinfo">
+                <h2 class="title">Visit Us</h2>
+                <section class="people">
+                    <h3>Riachuelo Chamber of Tourism</h3>
+                    <p>Brandsen 805, C1161 CABA</p>
+                    <address>+(54) 351 224 0528</address>
+                    <p>Monday – Thursday: 9:00 a.m. to 4:30 p.m.
+                        Friday: By Appointment Only</p>
+                </section>
+                <h2 class="title">Points of Contact</h2>
+                <section class="people">
+                    <h3>Sebastian Ayinomoto</h3>
+                    <p>President & CEO</p>
+                    <address>(11) 358-7596</address>
+                </section>
+                <section class="people">
+                    <h3>Male Pola</h3>
+                    <p>Vice President</p>
+                    <address>(11) 845-1125</address>
+                </section>
+                <section class="people">
+                    <h3>Emma Lotus</h3>
+                    <p>Membership Director</p>
+                    <address>(11) 458-3698</address>
+                </section>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="company-footer">

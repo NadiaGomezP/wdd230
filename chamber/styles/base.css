@@ -87,10 +87,41 @@ body{
 }
 
 .event h2{
-font-size: 20px;
+font-size: 15px;
 margin-top: -10px;
 margin-bottom: 10px;
 }
+
+.event h1{
+  font-size: 20px;
+  }
+
+  .event p{
+    font-size: 13px;
+  }
+
+  .news-release h2{
+    font-size: 15px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    }
+    
+    .news-release h1{
+      font-size: 20px;
+      }
+    
+      .news-release{
+        font-size: 13px;
+      }
+  
+
+      .join h1{
+        font-size: 20px;
+        }
+      
+        .join p{
+          font-size: 13px;
+        }
 
 .join{
     display: none;
@@ -98,7 +129,7 @@ margin-bottom: 10px;
 
 main section {
     border: 1px solid #0f0e17;
-    height: 200px;
+    height: 230px;
     margin-top: 1px;
 }
 
@@ -110,10 +141,10 @@ main section {
 .spotlights h2{
     margin: 1rem;
     text-align: center;
+    font-size: 15px;
 }
 
 .spotlightscontact {
-  border-top: 2px solid black;
   padding: 0.2rem;
   color: #0f0e17;
   text-align: center;
@@ -124,6 +155,14 @@ main section {
   padding-bottom: 1rem;
 }
 
+.spotlights section,
+.join,.news-release,.weather, .event{
+  background-color: rgba(244, 245, 226, 0.842);
+}
+
+.spotlights{
+  background-color:  #41310850;
+}
 
 
 footer {
@@ -279,7 +318,9 @@ nav ul li a:hover {
 
 .card-info{
   margin-top: -225px;
+  text-shadow: 0 0 15px #fff;
 }
+
 
 .clearfix:after {
   content: "";
@@ -306,7 +347,7 @@ nav ul li a:hover {
 .gallery-item {
   padding: 10px 10px 20px 10px;
   border: 2px solid #BFBFBF;
-  background-color: white;
+  background-color:  #ffbb00a1;
   border-radius: 1em;
   box-shadow: 10px 10px 5px #aaaaaa;
 }
@@ -318,8 +359,6 @@ figure img {
   padding: 0px;
   align-items: center;
   justify-items: center;
-  border: 3px solid #ccc;
-border-radius: 1em;
 }
 
 .gallery-item-large,
@@ -332,7 +371,7 @@ border-radius: 1em;
 }
 
 .paragraphs-demo{
-  font-size: 15px;
+  font-size: 14px;
 }
 
 
@@ -438,6 +477,7 @@ img {
   form fieldset {
     border: 2px solid #445ba9;
     border-radius: 10px;
+    background-color: #ffbb004b;
   }
   
   
@@ -463,8 +503,8 @@ img {
   
   form input.submitBtn {
     border: none;
-    background-color: #9c2c13;
-    color: white;
+    background-color: #FFBC00;
+    color: black;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
     margin: 10px 25px;
@@ -494,4 +534,20 @@ img {
     box-shadow: 5px 5px 5px #000000;
     position: relative;
     text-align: center;
+  }
+
+  .benefits{
+    height: 50% !important;
+  }
+
+  .title{
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+  }
+
+  .people{
+    height: 50% !important;
+    padding: 20px;
+    background-color: #0000003a;
   }

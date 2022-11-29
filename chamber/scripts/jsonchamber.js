@@ -1,10 +1,10 @@
 const spotlights = document.querySelector('.spotlights');
 
-function getResponse() {
-  const response = fetch('https://nadiagomezp.github.io/wdd230/chamber/json/data.json');
+async function getResponse() {
+  const response = await fetch('https://nadiagomezp.github.io/wdd230/chamber/json/data.json');
   
   if (response.ok) {
-    const data = response.json();
+    const data = await response.json();
     const cardsHome = cardHome(data);
     for (let i = 0; i < 3; i++) {
       const section = document.createElement("section");
@@ -27,12 +27,12 @@ function getResponse() {
       divBody.classList.add("spotlightsbody");
       contact.classList.add("spotlightscontact");
 
-      address.textContent = cardsHome[i].address;
-      phone.textContent = cardsHome[i].phonenumber;
+      address.textContent = `Address: ${cardsHome[i].address}`;
+      phone.textContent = `Phone: ${cardsHome[i].phonenumber}`;
       link.classList.add("spotlightslink");
       link.href = cardsHome[i].url;
       link.setAttribute("target", "_blank");
-      link.textContent = "Website";
+      link.textContent = "Access the company website";
 
       website.append(link);
       contact.append(address, phone, website);
@@ -57,3 +57,5 @@ function cardHome(data) {
   const shuffled = [...cardArr].sort(() => 0.5 - Math.random());
   return shuffled.slice(0, 3);
 }
+
+getResponse();

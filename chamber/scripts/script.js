@@ -166,7 +166,3 @@ function displayCards(cardsinfo) {
   card.append(portrait, h2, address, phonenumber, link, membership);
   document.querySelector("article.cards").appendChild(card);
 }
-
-
-
-
