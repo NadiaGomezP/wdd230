@@ -26,17 +26,16 @@
       }
 
       .event h2{
-        font-size: 20px;
-        margin-top: -10px;
-        margin-bottom: 10px;
+        font-size: 15px;
+
         }
         
         .event h1{
-          font-size: 25px;
+          font-size: 20px;
           }
         
           .event p{
-            font-size: 16px;
+            font-size: 15px;
           }
 
           .news-release h2{
@@ -171,5 +170,7 @@ form fieldset {
   .spotlights section {
     width: 100%;
   }
+
+
 
 }
