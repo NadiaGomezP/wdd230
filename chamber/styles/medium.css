@@ -38,7 +38,7 @@
         display: flex;
         gap: 1.6rem;
         justify-content: space-between;
-      }
+      }      
 
     
       .join {
@@ -127,5 +127,13 @@ form fieldset {
   padding: 3rem;
 }
 
+
+}
+
+@media screen and (min-width: 48em) and (max-width: 59em){
+
+  .spotlights section {
+    width: 100%;
+  }
 
 }

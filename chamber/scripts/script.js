@@ -111,7 +111,7 @@ const lastVisit = Number(window.localStorage.getItem("last-visit"));
   localStorage.setItem("last-visit", day);
 
     
-	countDisplay.textContent = roundedDays
+	countDisplay.textContent = roundedDays;
 
   const gridbutton = document.querySelector("#grid");
   const listbutton = document.querySelector("#list");
@@ -166,3 +166,7 @@ function displayCards(cardsinfo) {
   card.append(portrait, h2, address, phonenumber, link, membership);
   document.querySelector("article.cards").appendChild(card);
 }
+
+
+
+
