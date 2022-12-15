@@ -5,6 +5,7 @@
 @media screen and (min-width: 48em){
     .site-name-container h1{
         margin-top: 3rem;
+        font-size: 2rem;
     }
 
     .navBar a {
