@@ -68,7 +68,7 @@
 /* ---------------------------------------------------------------------------- */
 
 @media screen and (min-width: 48em){
-    .modal__content {
+    .modal_content {
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-items: center;   

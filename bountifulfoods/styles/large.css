@@ -37,6 +37,6 @@
         gap: 2rem;
         margin: 2rem 1.5rem;
       }     
-      .modal__content {
+      .modal_content {
         grid-template-columns: 1fr 1fr 1fr;
 }}

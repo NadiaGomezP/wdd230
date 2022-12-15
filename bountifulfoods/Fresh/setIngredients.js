@@ -2,10 +2,6 @@ import data from "./fetchFruits.js";
 
 const setIngredients = async () => {
   const fruits = data;
-  console.log(
-    "🚀 ~ file: setIngredients.js:5 ~ setIngredients ~ fruits",
-    fruits
-  );
 
   fruits.forEach((fruit) => {
     const ingredients1 = document.querySelector("#ingredient1");
