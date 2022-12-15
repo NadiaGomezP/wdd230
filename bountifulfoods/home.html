@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/large.css">
+</head>
+<body>
+    <header>
+        <div class="first-container">
+            <div class="logo-container">
+                <img class="logo" src="./images/BountifulFoods.webp" alt="Bountiful Foods Logo">
+                <section class="site-name-container">
+                    <a class="a-home" href="./home.html"><h1>Bountiful Foods</h1></a>
+                </section>
+            </div>
+            <div class="change-size">
+                <div class="navBar" id="mainNavBar">
+                    <a class="link-a" href="./home.html">Home</a>
+                    <a class="link-a" href="./Fresh/fresh.html">Fresh</a>
+                    <a class="link-a" href="./AboutUs/about-us.html">About Us</a>
+                    <a class="link-a" href="./Contact/contact.html">Contact</a>
+                    <a href="javascript:void(0);" class="icon" onClick="openDrawerMenu()">&#9776;</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-container">
+
+        <div class="main-content">
+            <picture class="hero-img-photo">
+                <source media="(min-width: 960px)" srcset="./images/principal-img-large.webp">
+                <source media="(min-width: 600px)" srcset="./images/principal-img-medium.webp">
+                <img src="./images/principal-img-small.webp" alt="Bountiful banner small">
+            </picture>
+            <h1>Bountiful Foods</h1>
+        </div>
+
+        <div class="grid-container">
+            <div class="grid-information">
+                <h1>Business Information</h1>
+                <p class="p-home" >Small business specializing in organic, locally grown foods. Located in Carlsbad, California and with many food trucks that cover the coastal area from Los Angeles to San Diego.
+                    We sells fruits and produce directly from the farmers in the area and also use some national and international suppliers.
+                </p>
+            </div>
+            <div class="grid-call-action">
+                <h1>Make your fruit drink mix</h1>
+                <button class="button-3" role="button">Order your drink</button>
+            </div>
+            <div class="grid-social">
+                <h1>Social Media</h1>
+                <div class="social-links">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </div>
+            </div>
+            <div class="grid-weather">
+                <h1>Weather</h1>
+                <figure>
+                    <img src="#" alt="" id="weather-icon" />
+                    <figcaption></figcaption>
+                </figure>
+                <p>Temperature: <span id="tempF">50</span>°F</p>
+                <p>Wind Speed: <span id="speed">5</span> mph</p>
+                <p>WindChill: <span id="windchill"></span></p>
+            </div>
+            <div class="grid-card">
+                <h1>Specialty drinks submitted</h1>
+                <p class="submitted_drinks_counter">0</p>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="company-footer">
+            <div class="company-text">
+                <div class="footer-logo">
+                    <img class="logo" src="./images/BountifulFoods.webp" alt="Bountiful Foods Logo">
+                    <h2>Bountiful Foods</h2>
+                </div>
+                <div>
+                    <address>Agua Hedionda, Carlsbad, California 92008, EE. UU.</address>
+                    <address>(456)16554112</address>
+                    <a class="map" href="https://goo.gl/maps/qoXTsNw2dLXVEk49A"> Central Store</a>
+                </div>
+            </div>
+        </div>
+        <div class="infofooter">
+            <small> &copy; Bountiful Foods | <b>Nadia Peralta Diaz</b> | WDD 230 Final Project | Last Updated: <span id="lastModified"></span></small>
+            <br><a class="link-a" href="https://openweathermap.org/">Open Weather Api</a>
+        </div>
+    </footer>
+    <script src="./Home/home.js"></script>
+    <script type="module" src="./Fresh/getDrinks.js"></script>
+    <script src="./app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------- BASE ---------------------------------- */
+/* ---------------------------------------------------------------------------- */
+
+@media screen and (min-width: 48em){
+    .site-name-container h1{
+        margin-top: 3rem;
+    }
+
+    .navBar a {
+        font-size: 21px;
+    }
+
+    .company-text {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .footer-logo {
+        display: flex;
+        align-items: center;
+    }
+}
+
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------- HOME ---------------------------------- */
+/* ---------------------------------------------------------------------------- */
+
+@media screen and (min-width: 48em){
+    .main-content h1 {
+        font-size: 4rem;
+    }
+
+    .grid-container{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .grid-information{
+        grid-column: 1/3;
+    }
+
+    .grid-call-action{
+        grid-column: 3/5;
+    }
+
+    .grid-call-action .button-3{
+        margin-top: 2rem;
+    }
+
+    .grid-social .social-links{
+        margin-top: 4rem;
+    }
+
+    .grid-card{
+        grid-column: 4/5;
+    }
+
+    .grid-weather{
+        grid-column: 2/4;
+    }
+}
+
+
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------- FRESH ---------------------------------- */
+/* ---------------------------------------------------------------------------- */
+
+@media screen and (min-width: 48em){
+    .modal__content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;   
+    }
+
+    .container-fresh{
+        width: 500px;
+    }
+
+}
+
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------- ABOUT US ---------------------------------- */
+/* ---------------------------------------------------------------------------- */
+
+@media screen and (min-width: 48em){
+    .info-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+    }
+
+    .info-list ul{
+        list-style-type: none;
+        padding: 0;
+    }
+
+
+    .info-img{
+        margin-left: auto;
+        margin-bottom: auto;
+        margin-top: auto;
+    }    
+}
+
+
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------- CONTACT ---------------------------------- */
+/* ---------------------------------------------------------------------------- */
+
+@media screen and (min-width: 48em){
+    .container-contact{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+    }
+
+    .img-contact{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 600px;
+    }
+    
+    .img-contact img{
+        width: 500px;
+    }
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods - Fresh</title>
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/base.css">
+    <link rel="stylesheet" href="../styles/medium.css">
+    <link rel="stylesheet" href="../styles/large.css">
+</head>
+<body>
+    <header>
+        <div class="first-container">
+            <div class="logo-container">
+                <img class="logo" src="../Images/BountifulFoods.webp" alt="Bountiful Foods Logo">
+                <section class="site-name-container">
+                    <a class="a-home" href="../home.html"><h1>Bountiful Foods</h1></a>
+                </section>
+            </div>
+            <div class="change-size">
+                <div class="navBar" id="mainNavBar">
+                    <a class="link-a" href="../home.html">Home</a>
+                    <a class="link-a" href="../Fresh/fresh.html">Fresh</a>
+                    <a class="link-a" href="../AboutUs/about-us.html">About Us</a>
+                    <a class="link-a" href="../Contact/contact.html">Contact</a>
+                    <a href="javascript:void(0);" class="icon" onClick="openDrawerMenu()">&#9776;</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-fresh">
+            <div class="fresh-container">
+              <div id="left-side">
+                <h1 id="fresh-title">Build a specialty drink</h1>
+                <form id="fresh-form">
+                  <div class="form-group">
+                    <label for="firstName">First Name*</label>
+                    <input type="text" name="firstName" id="firstName" class="w-100" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email*</label>
+                    <input type="email" name="email" id="email" class="w-100" placeholder="email@gmail.com" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="PhoneNumber">Phone number*</label>
+                    <input type="tel" name="PhoneNumber" id="PhoneNumber" class="w-100" required>
+                  </div>
+        
+                  <div class="form-group">
+                    <label for="ingredient1">Ingredient 1*</label>
+                    <select name="ingredient1" id="ingredient1" required>
+                      <option value="">Please select a ingredient</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="ingredient2">Ingredient 2*</label>
+                    <select name="ingredient2" id="ingredient2" required>
+                      <option value="">Please select a ingredient</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="ingredient3">Ingredient 3*</label>
+                    <select name="ingredient3" id="ingredient3" required>
+                      <option value="">Please select a ingredient</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="specialInstructions">Special Instructions (Optional)</label>
+                    <textarea name="specialInstructions" id="specialInstructions" rows="3" class="form-text-area"></textarea>
+                  </div>
+                  <div class="form-group flex-center">
+                    <button type="submit" class="submit-button-form">Order</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        
+          <!-- The Modal -->
+          <div id="modal" class="modal">
+        
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close" id="closeModal">&times;</span>
+              <h2>Your order was created</h2>
+              <div class="modal__content">
+                <div>
+                  <h3>Information</h3>
+                  <hr>
+        
+                  <div class="form-group">
+                    <p>First name:</p>
+                    <p id="firstNameModal"></p>
+                  </div>
+                  <div class="form-group">
+                    <p>Email:</p>
+                    <p id="emailModal"></p>
+                  </div>
+                  <div class="form-group">
+                    <p>Phone number:</p>
+                    <p id="PhoneNumberModal"></p>
+                  </div>
+                </div>
+                <div>
+                  <h3>Order information</h3>
+                  <hr>
+                  <div class="form-group">
+                    <p>Ingredient 1:</p>
+                    <p id="ingredient1Modal"></p>
+                  </div>
+                  <div class="form-group">
+                    <p>Ingredient 2:</p>
+                    <p id="ingredient2Modal"></p>
+                  </div>
+                  <div class="form-group">
+                    <p>Ingredient 3:</p>
+                    <p id="ingredient3Modal"></p>
+                  </div>
+                  <div class="form-group">
+                    <p>Order date:</p>
+                    <p id="orderDateModal">12/12/2022</p>
+                  </div>
+                  <div class="form-group">
+                    <p>Special Instructions:</p>
+                    <p id="specialInstructionsModal"></p>
+                  </div>
+        
+                </div>
+                <div>
+                  <h3>Nutritional Information</h3>
+                  <hr>
+                  <div class="form-group">
+                    <p>Carbohydrates:</p>
+                    <p id="totalcarbohydratesModal"></p>
+                    <div class="form-group">
+                      <p>Protein:</p>
+                      <p id="totalProteinModal"></p>
+                    </div>
+                    <div class="form-group">
+                      <p>Fat:</p>
+                      <p id="totalFatModal"></p>
+                    </div>
+                    <div class="form-group">
+                      <p>Sugar:</p>
+                      <p id="totalSugarModal"></p>
+                    </div>
+                    <div class="form-group">
+                      <p>Calories:</p>
+                      <p id="totalCaloriesModal"></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+            </div>
+          </div>
+
+    </main>
+
+    <footer>
+        <div class="company-footer">
+            <div class="company-text">
+                <div class="footer-logo">
+                    <img class="logo" src="../Images/BountifulFoods.webp" alt="Bountiful Foods Logo">
+                    <h2>Bountiful Foods</h2>
+                </div>
+                <div>
+                    <address>Agua Hedionda, Carlsbad, California 92008, EE. UU.</address>
+                    <address>(456)16554112</address>
+                    <a class="map" href="https://goo.gl/maps/qoXTsNw2dLXVEk49A"> Central Store</a>
+                </div>
+            </div>
+        </div>
+        <div class="infofooter">
+            <small> &copy; Bountiful Foods | <b>Nadia Peralta Diaz</b> | WDD 230 Final Project | Last Updated: <span id="lastModified"></span></small>
+            <br><a class="link-a" href="https://openweathermap.org/">Open Weather Api</a>
+        </div>
+    </footer>
+    <script type="module" src="./handleForm.js"></script>
+    <script type="module" src="./script.js"></script>
+    <script type="module" src="./setIngredients.js"></script>
+</body>
+</html>
